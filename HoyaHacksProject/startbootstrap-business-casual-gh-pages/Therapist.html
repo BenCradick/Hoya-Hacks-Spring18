@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>Counselor Registration</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,61 +38,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-4">
+            <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+              <a class="nav-link text-uppercase text-expanded" href="client.html">Client</a>
+            </li>
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="Therapist.html">Counselors</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
+              <a class="nav-link text-uppercase text-expanded" href="Resources.html">Resources</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <!-- Header Paragrap Section-->
-    <section class="page-section clearfix">
-      <div class="container">
-        <div class="intro">
-          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
-          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Fresh Coffee</span>
-              <span class="section-heading-lower">Worth Drinking</span>
-            </h2>
-            <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
-            </p>
-            <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Mission Statement Section-->
-    <section class="page-section cta">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <div class="cta-inner text-center rounded">
-              <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">Our Promise</span>
-                <span class="section-heading-lower">To You</span>
-              </h2>
-              <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- User - Therapist Match Form-->
     <section class="page-section cta">
@@ -101,24 +64,53 @@
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
               <h2 class="section-heading mb-4">
-                <span class="section-heading-lower">Find a Counselor</span> <br>
-                <span class="section-heading-upper">Enter your information into the following fields and click 'Submit' to receive a list of available counselors to speak to.</span>
-              </h2>
+                <span class="section-heading-lower">Counselor Information</span><br>
+                <span class="section-heading-upper">Counselor: Enter your information into the following fields to be matched with a person in need of counseling</span>
+             </h2>
               <form>
-                First name:<br>
-                <input type="text" name="firstname">
+                <h5>   Area of Expertise: </h5>
+                 <input type="text" name="expertise"><br>
+                 <br>
+                <h5>Age Group Specialty:</h5>
+                 <input type="checkbox" name="answer1" value="Children">Children (0-12)
+                 <br>
+                 <input type="checkbox" name="answer2" value="Adolescent">Adolescent (13-17)
+                 <br>
+                 <input type="checkbox" name="answer2" value="Adult">Adult (18+)
                 <br>
-                Last name:<br>
-                <input type="text" name="lastname">
-            </form>
+                <input type="checkbox" name="answer2" value="NoSpecification">No Specification
+                <br><br>
+
+
+                  <h5> Gender Specialty:</h5>
+                  <input type="checkbox" name="answer1" value="Male">Male
+                  <br>
+                  <input type="checkbox" name="answer2" value="Female">Female
+                  <br>
+                  <input type="checkbox" name="answer2" value="Trans">Trans Male/Female
+                  <br>
+                  <input type="checkbox" name="answer2" value="NoSpecification">No Specification
+                  <br><br>
+
+                   <h5>Sexuality Specialty:</h5>
+                  <input type="checkbox" name="answer1" value="Hetero">Heterosexual
+                    <br>
+                    <input type="checkbox" name="answer2" value="Homo">Homosexual
+                    <br>
+                    <input type="checkbox" name="answer2" value="Bi">Bisexual
+                    <br>
+                    <input type="checkbox" name="answer2" value="NoSpecification">No Specification
+                   <br><br>
+                   <input type="submit">
+              </form>
           </div>
         </div>
       </div>
     </section>
 
+
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-
         <p class="m-0 small">Copyright &copy; Your Website 2018</p>
       </div>
     </footer>

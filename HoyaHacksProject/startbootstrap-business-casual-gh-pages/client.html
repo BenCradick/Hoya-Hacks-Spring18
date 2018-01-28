@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>Client Form</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,38 +44,71 @@
               </a>
             </li>
             <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+              <a class="nav-link text-uppercase text-expanded" href="client.html">Client</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+              <a class="nav-link text-uppercase text-expanded" href="Therapist.html">Counselors</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
+              <a class="nav-link text-uppercase text-expanded" href="Resources.html">Resources</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section class="page-section about-heading">
+    <!-- User - Therapist Match Form-->
+    <section class="page-section cta">
       <div class="container">
-        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
-        <div class="about-heading-content">
-          <div class="row">
-            <div class="col-xl-9 col-lg-10 mx-auto">
-              <div class="bg-faded rounded p-5">
-                <h2 class="section-heading mb-4">
-                  <span class="section-heading-upper">Strong Coffee, Strong Roots</span>
-                  <span class="section-heading-lower">About Our Cafe</span>
-                </h2>
-                <p>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</p>
-                <p class="mb-0">We guarantee that you will fall in <em>lust</em> with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.</p>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower">Find a Counselor</span> <br>
+                <span class="section-heading-upper">Enter your information into the following fields and click 'Submit' to receive a list of available counselors to speak to.</span>
+              </h2>
+              <form>
+                <h5>  Age:</h5>
+                 <input type="text" name="age" >
+                 <br><br>
+
+               <h5>  Gender:</h5>
+                 <select name="Gender">
+                   <option value=""></option>
+                   <option value="Female">Female</option>
+                   <option value="Male">Male</option>
+                   <option value="Transgender Female/ Male">Transgender Female/ Male</option>
+                   <option value="Other">Other</option>
+                   <option value="I prefer not to answer">I prefer not to answer</option>
+                 </select>
+                 <br><br>
+
+               <h5>  Sexuality:</h5>
+                 <input type="text" name="sexuality" >
+                 <br><br>
+
+               <h5> Counselor Gender Preference:</h5>
+                   <select name="Conselor Gender Preference">
+                       <option value=""></option>
+                     <option value="Female">Female</option>
+                     <option value="Male">Male</option>
+                     <option value="No preference">No Preference</option>
+                   </select>
+                 <br><br>
+
+                 <h5>Area(s) of Need:</h5>
+                 <p>(ex. 'Rape, Sexual Assault, Domestic Abuse')</p>
+                 <input type="text" name="areas of need" >
+                 <br><br>
+
+                 <input type="submit" value="submit">
+                 <br>
+              </form>
           </div>
         </div>
       </div>
     </section>
+
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
