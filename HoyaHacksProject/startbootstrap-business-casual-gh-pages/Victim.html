@@ -57,54 +57,58 @@
       </div>
     </nav>
 
+    <!-- Header Paragrap Section-->
 
+
+    <!-- Mission Statement Section-->
+
+
+    <!-- User - Therapist Match Form-->
     <section class="page-section cta">
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
               <h2 class="section-heading mb-4">
-                <span class="section-heading-lower">Counselor Information</span>
-                <br>
-                <span class="section-heading-upper">Counselor: Enter your information into the following fields to be matched with a person in need of counseling</span>
-            </h2>
+                <span class="section-heading-lower">Find a Counselor</span> <br>
+                <span class="section-heading-upper">Enter your information into the following fields and click 'Submit' to receive a list of available counselors to speak to.</span>
+              </h2>
               <form>
-              <h5>   Area of Expertise: </h5>
-                <input type="text" name="expertise"><br>
-                <br>
-                <h5>Age Group Specialty:</h5>
-                <input type="checkbox" name="answer1" value="Children">Children (0-12)
-                <br>
-                <input type="checkbox" name="answer2" value="Adolescent">Adolescent (13-17)
-                <br>
-                <input type="checkbox" name="answer2" value="Adult">Adult (18+)
-                <br>
-                <input type="checkbox" name="answer2" value="NoSpecification">No Specification
+              <h5>  Age:</h5>
+                <input type="text" name="age" >
                 <br><br>
 
+              <h5>  Gender:</h5>
+                <select name="Gender">
+                  <option value=""></option>
+                  <option value="Female">Female</option>
+                  <option value="Male">Male</option>
+                  <option value="Transgender Female/ Male">Transgender Female/ Male</option>
+                  <option value="Other">Other</option>
+                  <option value="I prefer not to answer">I prefer not to answer</option>
+                </select>
+                <br><br>
 
-                  <h5> Gender Specialty:</h5>
-                  <input type="checkbox" name="answer1" value="Male">Male
-                  <br>
-                  <input type="checkbox" name="answer2" value="Female">Female
-                  <br>
-                  <input type="checkbox" name="answer2" value="Trans">Trans Male/Female
-                  <br>
-                  <input type="checkbox" name="answer2" value="NoSpecification">No Specification
-                  <br><br>
+              <h5>  Sexuality:</h5>
+                <input type="text" name="sexuality" >
+                <br><br>
 
-                    <h5>Sexuality Specialty:</h5>
-                    <input type="checkbox" name="answer1" value="Hetero">Heterosexual
-                    <br>
-                    <input type="checkbox" name="answer2" value="Homo">Homosexual
-                    <br>
-                    <input type="checkbox" name="answer2" value="Bi">Bisexual
-                    <br>
-                    <input type="checkbox" name="answer2" value="NoSpecification">No Specification
-                    <br><br>
-                  <input type="submit">
+              <h5> Counselor Gender Preference:</h5>
+                  <select name="Conselor Gender Preference">
+                      <option value=""></option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="No preference">No Preference</option>
+                  </select>
+                <br><br>
+
+                <h5>Area(s) of Need:</h5>
+                <input type="text" name="areas of need" >
+                <br><br>
+
+                <input type="submit" value="submit">
+                <br>
               </form>
-            </div>
           </div>
         </div>
       </div>
@@ -112,7 +116,7 @@
 
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p>Background from http://www.powerpointhintergrund.com</p>
+
         <p class="m-0 small">Copyright &copy; Your Website 2018</p>
       </div>
     </footer>
