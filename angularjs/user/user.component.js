@@ -5,5 +5,4 @@ angular.module('user').component('user', {
   this.sexuality = 'placeholder_sexuality';
   this.counselorGenderPreference = 'placeholder_counselorGenderPreference';
   this.areaOfNeed = 'placeholder_areaOfNeed';
-
 });
